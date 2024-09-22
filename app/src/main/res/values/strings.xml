@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">To-Do</string>
+    <string name="tasknest">TaskNest</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="enter_the_title">Enter the Title</string>
+    <string name="enter_the_description">Enter the Description</string>
+    <string name="priority">Priority</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="place_halder_time">00:00:00</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+</resources>

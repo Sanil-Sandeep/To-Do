@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:padding="16dp"
+    tools:context=".UpdateActivity"
+    >
+
+    <TextView
+        android:id="@+id/editTaskHeding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/edit_task"
+        android:textColor="@color/background"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/editTaskHeding"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-17dp"
+        android:src="@drawable/done" />
+
+    <EditText
+        android:id="@+id/updateTitleEditText"
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editTaskHeding"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/green_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/enter_the_title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/updateContentEditText"
+        android:layout_width="384dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/updateTitleEditText"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/green_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="@string/enter_the_description"
+        android:padding="12dp"
+
+
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/updatedeadlineEditText"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateContentEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/green_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/priority"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/updatetvtextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updatedeadlineEditText"
+        android:layout_marginTop="23dp"
+        android:text="@string/dd_mm_yyyy"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        tools:text="@tools:sample/date/ddmmyy"/>
+
+    <Button
+        android:id="@+id/btn_timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updatetvtextTime"
+        android:layout_marginTop="-1dp"
+        android:backgroundTint="@color/background"
+        android:textColor="@color/green"
+        android:text="Change Date" />
+
+</RelativeLayout>
