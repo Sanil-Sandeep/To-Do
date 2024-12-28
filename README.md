@@ -29,12 +29,12 @@ A simple To-Do Application built for Android using Kotlin. This app allows users
 
 ## How to Run the Project
 
-1) Clone the repository:
+- Clone the repository:
 
 ```bash
   git clone https://github.com/your-username/your-repo-name.git  
 ```
 
-2) Open the project in Android Studio.
-3) Sync the Gradle files to ensure all dependencies are downloaded.
-4) Build and run the app on an emulator or a physical Android device.
+- Open the project in Android Studio.
+- Sync the Gradle files to ensure all dependencies are downloaded.
+- Build and run the app on an emulator or a physical Android device.
