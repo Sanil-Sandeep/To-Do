@@ -24,3 +24,17 @@ A simple To-Do Application built for Android using Kotlin. This app allows users
 - **Kotlin :** Programming language for Android app development.
 - **SQLite :** Lightweight database for local storage.
 - **Android SDK :** Tools and libraries for building the mobile app
+
+<br>
+
+## How to Run the Project
+
+1) Clone the repository:
+
+```bash
+  git clone https://github.com/your-username/your-repo-name.git  
+```
+
+2) Open the project in Android Studio.
+3) Sync the Gradle files to ensure all dependencies are downloaded.
+4) Build and run the app on an emulator or a physical Android device.
