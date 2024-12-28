@@ -3,3 +3,16 @@
 <br>
 
 A simple To-Do Application built for Android using Kotlin. This app allows users to manage their daily tasks efficiently with SQLite as the local database. The application supports full CRUD operations (Create, Read, Update, Delete) to keep task management seamless and organized.
+
+
+<br><br>
+
+## Features
+
+<br>
+
+- **Add Tasks:** Create new to-do tasks with ease.
+- **View Tasks:** View all saved tasks in an organized list.
+- **Update Tasks:** Edit or modify existing tasks.
+- **Delete Tasks:** Remove completed or unnecessary tasks.
+- **Offline Support:** Task data is stored locally using SQLite, ensuring offline functionality.
